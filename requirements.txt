@@ -3,3 +3,5 @@ feedparser
 beautifulsoup4
 markdown
 python-dateutil
+feedparser
+beautifulsoup4
