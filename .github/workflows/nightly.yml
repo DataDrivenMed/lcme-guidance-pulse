@@ -17,6 +17,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - run: python src/fetch_lcme.py
+            - run: python src/fetch_lcme_pdfs.py     # <-- new line
       - run: python src/fetch_aamc.py
       - run: python src/tag_updates.py
       - run: python src/make_digest.py
